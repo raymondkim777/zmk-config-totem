@@ -142,9 +142,9 @@
 
         Numpad_Layer {
             bindings = <
-        &trans      &kp ESCAPE    &trans  &trans      &trans       &kp KP_PLUS    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MULTIPLY
+        &kp LSHIFT  &kp ESCAPE    &trans  &trans      &trans       &kp KP_PLUS    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MULTIPLY
         &kp LCMD    &kp LEFT_ALT  &trans  &trans      &trans       &kp KP_MINUS   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_SLASH
-&trans  &kp LSHIFT  &trans        &trans  &trans      &trans       &kp BACKSPACE  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &trans
+&trans  &trans      &trans        &trans  &trans      &trans       &kp BACKSPACE  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &trans
                                   &trans  &kp KP_NUM  &kp LCTRL    &kp ENTER      &kp KP_NUMBER_0  &trans
             >;
 
@@ -153,9 +153,9 @@
 
         Function_Layer {
             bindings = <
-        &trans      &kp ESCAPE    &trans  &trans  &trans       &trans  &kp F7  &kp F8  &kp F9  &kp F10
+        &kp LSHIFT  &kp ESCAPE    &trans  &trans  &trans       &trans  &kp F7  &kp F8  &kp F9  &kp F10
         &kp LCMD    &kp LEFT_ALT  &trans  &trans  &trans       &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &kp LSHIFT  &trans        &trans  &trans  &trans       &trans  &kp F1  &kp F2  &kp F3  &kp F12  &trans
+&trans  &trans      &trans        &trans  &trans  &trans       &trans  &kp F1  &kp F2  &kp F3  &kp F12  &trans
                                   &trans  &trans  &kp LCTRL    &trans  &trans  &trans
             >;
 
